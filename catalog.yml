@@ -8,4 +8,4 @@ controller.item.message: "peer1"
 ---
 spring:
  profiles: peer2
-controller.item.message: "peer1"
+controller.item.message: "peer2"
