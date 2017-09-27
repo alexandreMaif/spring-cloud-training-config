@@ -6,6 +6,6 @@ spring:
 controller.item.message: "peer1" 
  
 ---
- spring:
-  profiles: peer2
+spring:
+ profiles: peer2
 controller.item.message: "peer1"
