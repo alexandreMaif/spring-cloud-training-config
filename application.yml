@@ -9,3 +9,8 @@ eureka:
       defaultZone: ${EUREKA_URI:http://127.0.0.1:8761/eureka}
   instance:
     preferIpAddress: true
+
+spring:
+ sleuth:
+  sampler:
+   percentage: 1.0
