@@ -11,6 +11,8 @@ eureka:
     preferIpAddress: true
 
 spring:
- sleuth:
-  sampler:
-   percentage: 1.0
+  sleuth:
+    sampler:
+      percentage: 1.0
+  zipkin:
+    base-url: http://192.168.99.100:9411/
